@@ -39,7 +39,7 @@
     "@angular-devkit/build-angular": "^16.2.15",
     "@angular/cli": "^16.2.15",
     "@angular/compiler-cli": "^16.2.12",
-    "@angular/language-service": "^16.2.12",
+    "@angular/language-service": "^18.2.2",
     "@types/jasmine": "^3.6.0",
     "@types/node": "^18.19.48",
     "jasmine-core": "^3.6.0",
