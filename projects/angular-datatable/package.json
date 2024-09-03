@@ -1,6 +1,6 @@
 {
   "name": "@troplabs/angular-datatable",
-  "version": "9.0.1",
+  "version": "10.0.0",
   "description": "Angular Datatable",
   "author": "Troplabs Team <oss@troplabs.com>",
   "license": "MIT",
@@ -12,9 +12,12 @@
     "url": "https://github.com/Troplabs/angular-datatable/issues"
   },
   "homepage": "https://github.com/Troplabs/angular-datatable",
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
   "peerDependencies": {
-    "@angular/common": "^9.1.13",
-    "@angular/core": "^9.1.13",
+    "@angular/common": "^10.2.5",
+    "@angular/core": "^10.2.5",
     "lodash.min": "^4.0.1",
     "lodash.orderby": "^4.6.0"
   }
