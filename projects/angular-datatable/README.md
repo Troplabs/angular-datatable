@@ -6,6 +6,7 @@
 
 | Angular Datatable | Angular |
 |-------------------|---------|
+| 11.x.x            | 11.x.x  |
 | 10.x.x            | 10.x.x  |
 | 9.x.x             | 9.x.x   |
 | 8.x.x             | 8.x.x   |
