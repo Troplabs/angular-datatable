@@ -1,8 +1,21 @@
 {
   "name": "@troplabs/angular-datatable",
   "version": "8.0.0",
+  "description": "Angular Datatable",
+  "author": "Troplabs Team <oss@troplabs.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Troplabs/angular-datatable.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Troplabs/angular-datatable/issues"
+  },
+  "homepage": "https://github.com/Troplabs/angular-datatable",
   "peerDependencies": {
     "@angular/common": "^8.2.14",
-    "@angular/core": "^8.2.14"
+    "@angular/core": "^8.2.14",
+    "lodash.min": "^4.0.1",
+    "lodash.orderby": "^4.6.0"
   }
 }

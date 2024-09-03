@@ -1,12 +1,17 @@
 import { NgModule } from '@angular/core';
-import { AngularDatatableComponent } from './angular-datatable.component';
+import { CommonModule } from "@angular/common";
+import { AngularDatatableDirective } from './angular-datatable.directive';
+import { DefaultSorterComponent } from './default-sorter.component';
+import { PaginatorComponent } from './paginator.component';
+import { BootstrapPaginatorComponent } from './bootstrap-paginator.component';
 
 
 
 @NgModule({
-  declarations: [AngularDatatableComponent],
   imports: [
+    CommonModule
   ],
-  exports: [AngularDatatableComponent]
+  declarations: [AngularDatatableDirective, DefaultSorterComponent, PaginatorComponent, BootstrapPaginatorComponent],
+  exports: [AngularDatatableDirective, DefaultSorterComponent, PaginatorComponent, BootstrapPaginatorComponent]
 })
 export class AngularDatatableModule { }

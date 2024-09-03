@@ -7,7 +7,7 @@
       "projectType": "library",
       "root": "projects/angular-datatable",
       "sourceRoot": "projects/angular-datatable/src",
-      "prefix": "lib",
+      "prefix": "mf",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
@@ -37,6 +37,10 @@
           }
         }
       }
-    }},
+    }
+  },
+  "cli": {
+    "packageManager": "npm"
+  },
   "defaultProject": "angular-datatable"
 }
