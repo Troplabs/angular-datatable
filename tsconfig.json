@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "angular-datatable": [
+        "dist/angular-datatable"
+      ],
+      "angular-datatable/*": [
+        "dist/angular-datatable/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
