@@ -1,6 +1,6 @@
 import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
-import { AngularDatatableDirective } from './angular-datatable.directive';
 import min from 'lodash.min';
+import { AngularDatatableDirective } from './angular-datatable.directive';
 
 @Component({
   selector: 'mf-bootstrap-paginator',

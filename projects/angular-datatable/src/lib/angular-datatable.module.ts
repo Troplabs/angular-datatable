@@ -9,7 +9,7 @@ import { BootstrapPaginatorComponent } from './bootstrap-paginator.component';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
   ],
   declarations: [AngularDatatableDirective, DefaultSorterComponent, PaginatorComponent, BootstrapPaginatorComponent],
   exports: [AngularDatatableDirective, DefaultSorterComponent, PaginatorComponent, BootstrapPaginatorComponent]

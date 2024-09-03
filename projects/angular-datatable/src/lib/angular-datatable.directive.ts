@@ -1,6 +1,6 @@
 import { Directive, DoCheck, EventEmitter, Input, IterableDiffer, IterableDiffers, OnChanges, Output, SimpleChange } from '@angular/core';
-import { ReplaySubject } from 'rxjs';
 import orderBy from 'lodash.orderby';
+import { ReplaySubject } from 'rxjs';
 
 export type SortOrder = 'asc' | 'desc';
 export interface SortEvent {

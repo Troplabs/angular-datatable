@@ -14,6 +14,11 @@
           "options": {
             "tsConfig": "projects/angular-datatable/tsconfig.lib.json",
             "project": "projects/angular-datatable/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/angular-datatable/tsconfig.lib.prod.json"
+            }
           }
         },
         "test": {
@@ -22,18 +27,6 @@
             "main": "projects/angular-datatable/src/test.ts",
             "tsConfig": "projects/angular-datatable/tsconfig.spec.json",
             "karmaConfig": "projects/angular-datatable/karma.conf.js"
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/angular-datatable/tsconfig.lib.json",
-              "projects/angular-datatable/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
           }
         }
       }
