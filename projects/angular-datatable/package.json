@@ -1,6 +1,6 @@
 {
   "name": "@troplabs/angular-datatable",
-  "version": "17.0.0",
+  "version": "18.0.0",
   "description": "Angular Datatable",
   "author": "Troplabs Team <oss@troplabs.com>",
   "license": "MIT",
@@ -21,8 +21,8 @@
     "angular-6-datatable"
   ],
   "peerDependencies": {
-    "@angular/common": "^17.3.9",
-    "@angular/core": "^17.3.9",
+    "@angular/common": "^18.2.3",
+    "@angular/core": "^18.2.3",
     "lodash.min": "^4.0.1",
     "lodash.orderby": "^4.6.0"
   }
