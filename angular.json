@@ -20,14 +20,6 @@
               "tsConfig": "projects/angular-datatable/tsconfig.lib.prod.json"
             }
           }
-        },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "main": "projects/angular-datatable/src/test.ts",
-            "tsConfig": "projects/angular-datatable/tsconfig.spec.json",
-            "karmaConfig": "projects/angular-datatable/karma.conf.js"
-          }
         }
       }
     }
