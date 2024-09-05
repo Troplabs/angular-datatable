@@ -43,7 +43,7 @@
     "@types/node": "^18.19.48",
     "lodash.min": "^4.0.1",
     "lodash.orderby": "^4.6.0",
-    "ng-packagr": "^17.3.0",
+    "ng-packagr": "^18.2.1",
     "typescript": "~5.4.5"
   }
 }
