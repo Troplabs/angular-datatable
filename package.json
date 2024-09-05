@@ -40,7 +40,7 @@
     "@angular/cli": "^17.3.9",
     "@angular/compiler-cli": "^17.3.12",
     "@angular/language-service": "^17.3.12",
-    "@types/node": "^18.19.48",
+    "@types/node": "^20.16.5",
     "lodash.min": "^4.0.1",
     "lodash.orderby": "^4.6.0",
     "ng-packagr": "^17.3.0",
